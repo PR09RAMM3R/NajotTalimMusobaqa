@@ -1,0 +1,38 @@
+[
+    {
+        "img": "/konsol.png",
+        "title": "HAVIT HV-G92 Gamepad",
+        "price1": "$120",
+        "price2": "$160",
+        "point": "/ball2.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/klaviatura.png",
+        "title": "Gucci duffle bag",
+        "price1": "$960",
+        "price2": "$1160",
+        "point": "/ball4.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/monitor.png",
+        "title": "IPS LCD Gaming Monitor",
+        "price1": "$370",
+        "price2": "$400",
+        "point": "/ball5.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/stul.png",
+        "title": "S-Series Comfort Chair ",
+        "price1": "$375",
+        "price2": "$400",
+        "point": "/ball1.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    }
+]

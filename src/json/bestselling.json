@@ -1,0 +1,37 @@
+[
+    {
+        "img": "/koylak.png",
+        "title": "The north coat",
+        "price1": "$260",
+        "price2": "$360",
+        "point": "/ball2.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/sumka.png",
+        "title": "Gucci duffle bag",
+        "price1": "$960",
+        "price2": "$1160",
+        "point": "/ball1.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/videokarta.png",
+        "title": "RGB liquid CPU Cooler",
+        "price1": "$160",
+        "price2": "$170",
+        "point": "/ball1.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/jovon.png",
+        "title": "Small BookSelf",
+        "price1": "$360",
+        "point": "/ball2.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    }
+]

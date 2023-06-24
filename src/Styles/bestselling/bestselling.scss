@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bestselling {
+    padding: 50px 100px;
+
+    .top {
+        hr {
+            border: none;
+            width: 20px;
+            height: 40px;
+            background-color: #DB4444;
+            border-radius: 5px;
+            float: left;
+            transform: translateY(-19px);
+        }
+
+        h2 {
+            color: #DB4444;
+            transform: translateY(-15px);
+            margin-left: 35px;
+        }
+    }
+
+    .center {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            border: none;
+            background-color: #DB4444;
+            width: 125px;
+            color: white;
+            border-radius: 10px;
+            transition: 0.5s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: black;
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        border-bottom: 2px solid #F5F5F5;
+
+        .cards {
+            width: 270px;
+            border-radius: 10px;
+            margin-top: 35px;
+
+            .card-top {
+                width: 270px;
+                height: 250px;
+                background-color: rgb(230, 230, 230);
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .img {
+                    width: 140px;
+                    height: 146px;
+                    transition: 0.5s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+
+                .container {
+                    position: absolute;
+                    transform: translate(100px, -70px);
+
+                    .one,
+                    .two {
+                        width: 40px;
+                        height: 40px;
+                        background-color: white;
+                        border-radius: 50%;
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: 0.5s;
+
+                        &:hover{
+                            cursor: pointer;
+                            background-color: #DB4444;
+                        }
+
+                    }
+
+                }
+            }
+
+            .card-bottom {
+                p {
+                    font-size: 18px;
+                    margin-top: 15px;
+                    font-weight: 600;
+                }
+
+                .prices {
+                    display: flex;
+
+                    .price1 {
+                        color: #DB4444;
+                    }
+
+                    .price2 {
+                        margin-left: 10px;
+                        color: rgb(177, 177, 177);
+                        text-decoration: line-through;
+                    }
+                }
+
+                img {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

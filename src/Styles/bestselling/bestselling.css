@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bestselling {
+  padding: 50px 100px;
+}
+.bestselling .top hr {
+  border: none;
+  width: 20px;
+  height: 40px;
+  background-color: #DB4444;
+  border-radius: 5px;
+  float: left;
+  transform: translateY(-19px);
+}
+.bestselling .top h2 {
+  color: #DB4444;
+  transform: translateY(-15px);
+  margin-left: 35px;
+}
+.bestselling .center {
+  display: flex;
+  justify-content: space-between;
+}
+.bestselling .center button {
+  border: none;
+  background-color: #DB4444;
+  width: 125px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.bestselling .center button:hover {
+  background-color: black;
+}
+.bestselling .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #F5F5F5;
+}
+.bestselling .bottom .cards {
+  width: 270px;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+.bestselling .bottom .cards .card-top {
+  width: 270px;
+  height: 250px;
+  background-color: rgb(230, 230, 230);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bestselling .bottom .cards .card-top .img {
+  width: 140px;
+  height: 146px;
+  transition: 0.5s;
+}
+.bestselling .bottom .cards .card-top .img:hover {
+  transform: scale(1.2);
+}
+.bestselling .bottom .cards .card-top .container {
+  position: absolute;
+  transform: translate(100px, -70px);
+}
+.bestselling .bottom .cards .card-top .container .one,
+.bestselling .bottom .cards .card-top .container .two {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.bestselling .bottom .cards .card-top .container .one:hover,
+.bestselling .bottom .cards .card-top .container .two:hover {
+  cursor: pointer;
+  background-color: #DB4444;
+}
+.bestselling .bottom .cards .card-bottom p {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.bestselling .bottom .cards .card-bottom .prices {
+  display: flex;
+}
+.bestselling .bottom .cards .card-bottom .prices .price1 {
+  color: #DB4444;
+}
+.bestselling .bottom .cards .card-bottom .prices .price2 {
+  margin-left: 10px;
+  color: rgb(177, 177, 177);
+  text-decoration: line-through;
+}
+.bestselling .bottom .cards .card-bottom img {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

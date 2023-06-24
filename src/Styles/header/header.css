@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 100vh;
+}
+header nav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  border: 1px solid rgb(212, 210, 210);
+}
+header nav .left {
+  width: 30%;
+  height: 100%;
+  padding: 40px 0 0 100px;
+}
+header nav .center {
+  width: 35%;
+  height: 100%;
+  padding: 40px 0 0 10px;
+}
+header nav .center a {
+  color: #000;
+  margin-left: 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
+header nav .right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 0 0 60px;
+}
+header nav .right input {
+  width: 250px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: rgb(251, 247, 247);
+  border-radius: 10px;
+  padding: 0 55px 0 15px;
+}
+header nav .right img {
+  margin-left: 30px;
+}
+header nav .right img:hover {
+  cursor: pointer;
+}
+header nav .right .search {
+  width: 18px;
+  height: 18px;
+  transform: translate(180px, 0px);
+  position: absolute;
+}
+header .header {
+  display: flex;
+}
+header .header .category {
+  gap: 17px;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  padding-top: 50px;
+  padding-right: 30px;
+  margin-left: 100px;
+  flex-direction: column;
+  border-right: 1px solid rgb(212, 210, 210);
+}
+header .header .category ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+}
+header .header .category ul a {
+  color: #000;
+  text-decoration: none;
+}
+header .header .container {
+  width: 830px;
+  height: 350px;
+  overflow-y: hidden;
+  margin-left: 100px;
+  margin-top: 50px;
+  scroll-behavior: smooth;
+}
+header .header .container::-webkit-scrollbar {
+  display: none;
+}
+header .header .container .card {
+  width: 4000px;
+  height: 350px;
+  transition: 1s;
+  background-image: url(../../assets/headerCarusel.png);
+}/*# sourceMappingURL=header.css.map */

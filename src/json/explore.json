@@ -1,0 +1,34 @@
+[
+    {
+        "img": "/sweet.png",
+        "title": "Breed Dry Dog Food",
+        "price1": "$100",
+        "point": "/ball3.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/photo.png",
+        "title": "CANON EOS DSLR Camera",
+        "price1": "$360",
+        "point": "/ball4.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/laptop.png",
+        "title": "ASUS FHD Gaming Laptop",
+        "price1": "$700",
+        "point": "/ball5.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    },
+    {
+        "img": "/kosmetika.png",
+        "title": "Curology Product Set ",
+        "price1": "$500",
+        "point": "/ball4.png",
+        "like": "/like.png",
+        "quick": "/quickview.png"
+    }
+]

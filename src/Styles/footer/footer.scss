@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    .top{
+        padding: 50px 100px;
+        display: flex;
+        .card{
+            color: white;
+            h2{
+                font-weight: 400;
+                cursor: pointer;
+            }
+            p{
+                margin-top: 25px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+        .one, .two, .three, .four{
+            width: 18%;
+        }
+        .one{       
+            .logo{
+                filter: invert(1);
+            }
+            h2 {
+                font-weight: 400;
+                margin-top: 25px;
+                cursor: pointer;
+            }
+            input{
+                outline: none;
+                border: 2px solid white;
+                margin-top: 25px;
+                border-radius: 5px;
+                width: 210px;
+                height: 45px;
+                padding-left: 10px;
+                padding-right: 45px;
+                background-color: black;
+                color: white;
+                display: flex;
+            }
+            .send{     
+                position: absolute;
+                transform: translate(175px,-33px);  
+            }
+        }  
+        .five{
+    
+            width: 28%;
+            .container{
+                display: flex;
+                .left{
+                    width: 35%;
+                    img{
+                        margin-top: 25px;
+                    }
+                }
+                .right{
+                    width: 65%;
+                    padding-top: 25px;
+                    img{
+                        width: 150px;
+                        height: 50px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .icons{ 
+                display: flex;
+                margin-top: 20px;
+                img{
+                    margin-left: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .bottom{
+        border-top:1px solid rgb(181, 181, 181);
+        width: 100%;
+        padding: 20px 100px;
+        p{
+            color: rgb(107, 106, 106);
+            text-align: center;
+        }
+    }
+}

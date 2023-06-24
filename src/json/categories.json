@@ -1,0 +1,31 @@
+[
+    {
+        "img": "/Category-CellPhone.png",
+        "name": "Phones"
+    },
+
+    {
+        "img": "/Category-Computer.png",
+        "name": "Computers"
+    },
+
+    {
+        "img": "/Category-SmartWatch.png",
+        "name": "SmartWatch"
+    },
+    {
+        "img": "/Category-Camera.png",
+        "name": "Camera"
+    },
+
+    {
+        "img": "/Category-Headphone.png",
+        "name": "HeadPhones"
+    },
+
+    {
+        "img": "/Category-Gamepad.png",
+        "name": "Gaming"
+    }
+
+]
